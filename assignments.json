@@ -1,0 +1,701 @@
+[
+    {
+        "assignmentId": "12345",
+        "userId": "USER_ID",
+        "startedAt": "2025-09-26T19:52:43.313Z",
+        "completedAt": "2025-09-26T19:53:22.854Z",
+        "categories": [
+            {
+                "categoryName": "Difficulty & Understanding",
+                "questions": [
+                    {
+                        "question": "Which topics or subjects do you find most difficult to understand, and why?",
+                        "answer": "i feel high stress with mental level",
+                        "prediction": {
+                            "Low_Confidence_Flag": false,
+                            "Mental": "Stress",
+                            "Mental_conf": 0.8487536311149597,
+                            "Physical": "Anger",
+                            "Physical_conf": 0.996238112449646,
+                            "Polarity": "NEGATIVE",
+                            "Polarity_conf": 0.6485900282859802,
+                            "Stress_Impact": "Medium"
+                        }
+                    },
+                    {
+                        "question": "Are there any concepts you repeatedly struggle with?",
+                        "answer": "",
+                        "prediction": null
+                    },
+                    {
+                        "question": "Do you feel confident about what you have learned so far?",
+                        "answer": "",
+                        "prediction": null
+                    },
+                    {
+                        "question": "How do you approach topics that you find challenging?",
+                        "answer": "",
+                        "prediction": null
+                    }
+                ]
+            },
+            {
+                "categoryName": "Motivation & Engagement",
+                "questions": [
+                    {
+                        "question": "How motivated do you feel to study and complete your assignments these days?",
+                        "answer": "",
+                        "prediction": null
+                    },
+                    {
+                        "question": "What factors keep you engaged or demotivated in your studies?",
+                        "answer": "",
+                        "prediction": null
+                    },
+                    {
+                        "question": "How do you feel when you have to start a new topic or assignment?",
+                        "answer": "",
+                        "prediction": null
+                    }
+                ]
+            },
+            {
+                "categoryName": "Stress & Anxiety",
+                "questions": [
+                    {
+                        "question": "How stressed do you feel about upcoming exams or deadlines?",
+                        "answer": "",
+                        "prediction": null
+                    },
+                    {
+                        "question": "What situations during your studies make you feel anxious or overwhelmed?",
+                        "answer": "",
+                        "prediction": null
+                    },
+                    {
+                        "question": "How does academic pressure affect your mood or focus?",
+                        "answer": "",
+                        "prediction": null
+                    },
+                    {
+                        "question": "How confident or anxious do you feel when exams approach?",
+                        "answer": "",
+                        "prediction": null
+                    }
+                ]
+            },
+            {
+                "categoryName": "Time Management & Coping",
+                "questions": [
+                    {
+                        "question": "How do you manage your study time and deadlines?",
+                        "answer": "",
+                        "prediction": null
+                    },
+                    {
+                        "question": "When you feel overwhelmed by studies, what strategies do you use to cope?",
+                        "answer": "",
+                        "prediction": null
+                    },
+                    {
+                        "question": "Do you take breaks or use any specific methods to reduce stress while studying?",
+                        "answer": "",
+                        "prediction": null
+                    },
+                    {
+                        "question": "Do you feel your current study routine impacts your sleep, health, or personal life?",
+                        "answer": "",
+                        "prediction": null
+                    }
+                ]
+            }
+        ],
+        "submittedAt": "2025-09-26T19:53:22.858762"
+    },
+    {
+        "assignmentId": "12345",
+        "userId": "USER_ID",
+        "startedAt": "2025-09-26T20:43:44.257Z",
+        "completedAt": "2025-09-26T20:45:28.595Z",
+        "categories": [
+            {
+                "categoryName": "Difficulty & Understanding",
+                "questions": [
+                    {
+                        "question": "Which topics or subjects do you find most difficult to understand, and why?",
+                        "answer": "i feel like the average I feel like the average.",
+                        "prediction": {
+                            "Low_Confidence_Flag": false,
+                            "Mental": "Normal",
+                            "Mental_conf": 0.5748856067657471,
+                            "Physical": "Anger",
+                            "Physical_conf": 0.9826664924621582,
+                            "Polarity": "POSITIVE",
+                            "Polarity_conf": 0.9670198559761047,
+                            "Stress_Impact": "Low"
+                        }
+                    },
+                    {
+                        "question": "Are there any concepts you repeatedly struggle with?",
+                        "answer": "i like i like to mathem i like to mathematics I like to mathematics in a very terrible thing.",
+                        "prediction": {
+                            "Low_Confidence_Flag": false,
+                            "Mental": "Suicidal",
+                            "Mental_conf": 0.385835200548172,
+                            "Physical": "Surprise",
+                            "Physical_conf": 0.9960392713546753,
+                            "Polarity": "NEGATIVE",
+                            "Polarity_conf": 0.5622782111167908,
+                            "Stress_Impact": "High"
+                        }
+                    },
+                    {
+                        "question": "Do you feel confident about what you have learned so far?",
+                        "answer": "i am confident i am confident to learn I am confident to learn.",
+                        "prediction": {
+                            "Low_Confidence_Flag": false,
+                            "Mental": "Normal",
+                            "Mental_conf": 0.7672513127326965,
+                            "Physical": "Anger",
+                            "Physical_conf": 0.9972915053367615,
+                            "Polarity": "NORMAL",
+                            "Polarity_conf": 0.994553804397583,
+                            "Stress_Impact": "Low"
+                        }
+                    },
+                    {
+                        "question": "How do you approach topics that you find challenging?",
+                        "answer": "out of out of it out of it but out of a quad and out of a quad and then out of a quad and then next out of a quad and then next big topic out of a quad and then next big topic to out of a quad and then next week topic to each all Out of a quad and then next week topic to each all.",
+                        "prediction": {
+                            "Low_Confidence_Flag": true,
+                            "Mental": "Normal",
+                            "Mental_conf": 0.4017060101032257,
+                            "Physical": "Joy",
+                            "Physical_conf": 0.47041943669319153,
+                            "Polarity": "NORMAL",
+                            "Polarity_conf": 0.513615608215332,
+                            "Stress_Impact": "Low"
+                        }
+                    }
+                ]
+            },
+            {
+                "categoryName": "Motivation & Engagement",
+                "questions": [
+                    {
+                        "question": "How motivated do you feel to study and complete your assignments these days?",
+                        "answer": "",
+                        "prediction": null
+                    },
+                    {
+                        "question": "What factors keep you engaged or demotivated in your studies?",
+                        "answer": "",
+                        "prediction": null
+                    },
+                    {
+                        "question": "How do you feel when you have to start a new topic or assignment?",
+                        "answer": "",
+                        "prediction": null
+                    }
+                ]
+            },
+            {
+                "categoryName": "Stress & Anxiety",
+                "questions": [
+                    {
+                        "question": "How stressed do you feel about upcoming exams or deadlines?",
+                        "answer": "",
+                        "prediction": null
+                    },
+                    {
+                        "question": "What situations during your studies make you feel anxious or overwhelmed?",
+                        "answer": "",
+                        "prediction": null
+                    },
+                    {
+                        "question": "How does academic pressure affect your mood or focus?",
+                        "answer": "",
+                        "prediction": null
+                    },
+                    {
+                        "question": "How confident or anxious do you feel when exams approach?",
+                        "answer": "",
+                        "prediction": null
+                    }
+                ]
+            },
+            {
+                "categoryName": "Time Management & Coping",
+                "questions": [
+                    {
+                        "question": "How do you manage your study time and deadlines?",
+                        "answer": "",
+                        "prediction": null
+                    },
+                    {
+                        "question": "When you feel overwhelmed by studies, what strategies do you use to cope?",
+                        "answer": "",
+                        "prediction": null
+                    },
+                    {
+                        "question": "Do you take breaks or use any specific methods to reduce stress while studying?",
+                        "answer": "",
+                        "prediction": null
+                    },
+                    {
+                        "question": "Do you feel your current study routine impacts your sleep, health, or personal life?",
+                        "answer": "",
+                        "prediction": null
+                    }
+                ]
+            }
+        ],
+        "submittedAt": "2025-09-26T20:45:28.599224"
+    },
+    {
+        "assignmentId": "12345",
+        "userId": "USER_ID",
+        "startedAt": "2025-09-26T20:59:35.215Z",
+        "completedAt": "2025-09-26T21:02:06.091Z",
+        "categories": [
+            {
+                "categoryName": "Difficulty & Understanding",
+                "questions": [
+                    {
+                        "question": "Which topics or subjects do you find most difficult to understand, and why?",
+                        "answer": "I feel like every",
+                        "prediction": {
+                            "Low_Confidence_Flag": false,
+                            "Mental": "Normal",
+                            "Mental_conf": 0.9614837169647217,
+                            "Physical": "Anger",
+                            "Physical_conf": 0.9948461055755615,
+                            "Polarity": "POSITIVE",
+                            "Polarity_conf": 0.9995377063751221,
+                            "Stress_Impact": "Low"
+                        }
+                    },
+                    {
+                        "question": "Are there any concepts you repeatedly struggle with?",
+                        "answer": "",
+                        "prediction": null
+                    },
+                    {
+                        "question": "Do you feel confident about what you have learned so far?",
+                        "answer": "",
+                        "prediction": null
+                    },
+                    {
+                        "question": "How do you approach topics that you find challenging?",
+                        "answer": "",
+                        "prediction": null
+                    }
+                ]
+            },
+            {
+                "categoryName": "Motivation & Engagement",
+                "questions": [
+                    {
+                        "question": "How motivated do you feel to study and complete your assignments these days?",
+                        "answer": "",
+                        "prediction": null
+                    },
+                    {
+                        "question": "What factors keep you engaged or demotivated in your studies?",
+                        "answer": "",
+                        "prediction": null
+                    },
+                    {
+                        "question": "How do you feel when you have to start a new topic or assignment?",
+                        "answer": "",
+                        "prediction": null
+                    }
+                ]
+            },
+            {
+                "categoryName": "Stress & Anxiety",
+                "questions": [
+                    {
+                        "question": "How stressed do you feel about upcoming exams or deadlines?",
+                        "answer": "",
+                        "prediction": null
+                    },
+                    {
+                        "question": "What situations during your studies make you feel anxious or overwhelmed?",
+                        "answer": "",
+                        "prediction": null
+                    },
+                    {
+                        "question": "How does academic pressure affect your mood or focus?",
+                        "answer": "",
+                        "prediction": null
+                    },
+                    {
+                        "question": "How confident or anxious do you feel when exams approach?",
+                        "answer": "",
+                        "prediction": null
+                    }
+                ]
+            },
+            {
+                "categoryName": "Time Management & Coping",
+                "questions": [
+                    {
+                        "question": "How do you manage your study time and deadlines?",
+                        "answer": "",
+                        "prediction": null
+                    },
+                    {
+                        "question": "When you feel overwhelmed by studies, what strategies do you use to cope?",
+                        "answer": "",
+                        "prediction": null
+                    },
+                    {
+                        "question": "Do you take breaks or use any specific methods to reduce stress while studying?",
+                        "answer": "",
+                        "prediction": null
+                    },
+                    {
+                        "question": "Do you feel your current study routine impacts your sleep, health, or personal life?",
+                        "answer": "",
+                        "prediction": null
+                    }
+                ]
+            }
+        ],
+        "submittedAt": "2025-09-26T21:02:06.095714"
+    },
+    {
+        "assignmentId": "12345",
+        "userId": "USER_ID",
+        "startedAt": "2025-09-26T20:59:35.215Z",
+        "completedAt": "2025-09-26T21:02:06.445Z",
+        "categories": [
+            {
+                "categoryName": "Difficulty & Understanding",
+                "questions": [
+                    {
+                        "question": "Which topics or subjects do you find most difficult to understand, and why?",
+                        "answer": "I feel like every",
+                        "prediction": {
+                            "Low_Confidence_Flag": false,
+                            "Mental": "Normal",
+                            "Mental_conf": 0.9614837169647217,
+                            "Physical": "Anger",
+                            "Physical_conf": 0.9948461055755615,
+                            "Polarity": "POSITIVE",
+                            "Polarity_conf": 0.9995377063751221,
+                            "Stress_Impact": "Low"
+                        }
+                    },
+                    {
+                        "question": "Are there any concepts you repeatedly struggle with?",
+                        "answer": "",
+                        "prediction": null
+                    },
+                    {
+                        "question": "Do you feel confident about what you have learned so far?",
+                        "answer": "",
+                        "prediction": null
+                    },
+                    {
+                        "question": "How do you approach topics that you find challenging?",
+                        "answer": "",
+                        "prediction": null
+                    }
+                ]
+            },
+            {
+                "categoryName": "Motivation & Engagement",
+                "questions": [
+                    {
+                        "question": "How motivated do you feel to study and complete your assignments these days?",
+                        "answer": "",
+                        "prediction": null
+                    },
+                    {
+                        "question": "What factors keep you engaged or demotivated in your studies?",
+                        "answer": "",
+                        "prediction": null
+                    },
+                    {
+                        "question": "How do you feel when you have to start a new topic or assignment?",
+                        "answer": "",
+                        "prediction": null
+                    }
+                ]
+            },
+            {
+                "categoryName": "Stress & Anxiety",
+                "questions": [
+                    {
+                        "question": "How stressed do you feel about upcoming exams or deadlines?",
+                        "answer": "",
+                        "prediction": null
+                    },
+                    {
+                        "question": "What situations during your studies make you feel anxious or overwhelmed?",
+                        "answer": "",
+                        "prediction": null
+                    },
+                    {
+                        "question": "How does academic pressure affect your mood or focus?",
+                        "answer": "",
+                        "prediction": null
+                    },
+                    {
+                        "question": "How confident or anxious do you feel when exams approach?",
+                        "answer": "",
+                        "prediction": null
+                    }
+                ]
+            },
+            {
+                "categoryName": "Time Management & Coping",
+                "questions": [
+                    {
+                        "question": "How do you manage your study time and deadlines?",
+                        "answer": "",
+                        "prediction": null
+                    },
+                    {
+                        "question": "When you feel overwhelmed by studies, what strategies do you use to cope?",
+                        "answer": "",
+                        "prediction": null
+                    },
+                    {
+                        "question": "Do you take breaks or use any specific methods to reduce stress while studying?",
+                        "answer": "",
+                        "prediction": null
+                    },
+                    {
+                        "question": "Do you feel your current study routine impacts your sleep, health, or personal life?",
+                        "answer": "",
+                        "prediction": null
+                    }
+                ]
+            }
+        ],
+        "submittedAt": "2025-09-26T21:02:06.448029"
+    },
+    {
+        "assignmentId": "12345",
+        "startedAt": "2025-09-27T06:11:02.988Z",
+        "completedAt": "2025-09-27T06:18:37.976Z",
+        "categories": [
+            {
+                "categoryName": "Difficulty & Understanding",
+                "questions": [
+                    {
+                        "question": "Which topics or subjects do you find most difficult to understand, and why?",
+                        "answer": "the topics which i read first time",
+                        "prediction": {
+                            "Low_Confidence_Flag": false,
+                            "Mental": "Normal",
+                            "Mental_conf": 0.9724,
+                            "Physical": "Anger",
+                            "Physical_conf": 0.5857,
+                            "Polarity": "POSITIVE",
+                            "Polarity_conf": 0.9996,
+                            "Stress_Score": 0.0041
+                        }
+                    },
+                    {
+                        "question": "Are there any concepts you repeatedly struggle with?",
+                        "answer": "yes i keep forgetting algorithms",
+                        "prediction": {
+                            "Low_Confidence_Flag": false,
+                            "Mental": "Normal",
+                            "Mental_conf": 0.9749,
+                            "Physical": "Surprise",
+                            "Physical_conf": 0.9859,
+                            "Polarity": "POSITIVE",
+                            "Polarity_conf": 0.9994,
+                            "Stress_Score": 0.0074
+                        }
+                    },
+                    {
+                        "question": "Do you feel confident about what you have learned so far?",
+                        "answer": "little confidant if i get to revise i will be more confidant",
+                        "prediction": null
+                    },
+                    {
+                        "question": "How do you approach topics that you find challenging?",
+                        "answer": "take help from teammates or seniors",
+                        "prediction": null
+                    }
+                ]
+            },
+            {
+                "categoryName": "Motivation & Engagement",
+                "questions": [
+                    {
+                        "question": "How motivated do you feel to study and complete your assignments these days?",
+                        "answer": "not so motivated",
+                        "prediction": {
+                            "Low_Confidence_Flag": false,
+                            "Mental": "Normal",
+                            "Mental_conf": 0.9747,
+                            "Physical": "Anger",
+                            "Physical_conf": 0.6639,
+                            "Polarity": "POSITIVE",
+                            "Polarity_conf": 0.9996,
+                            "Stress_Score": 0.0046
+                        }
+                    },
+                    {
+                        "question": "What factors keep you engaged or demotivated in your studies?",
+                        "answer": "new technologies and advancement in ai keeps me motivated",
+                        "prediction": {
+                            "Low_Confidence_Flag": false,
+                            "Mental": "Normal",
+                            "Mental_conf": 0.8999,
+                            "Physical": "Anger",
+                            "Physical_conf": 0.9967,
+                            "Polarity": "POSITIVE",
+                            "Polarity_conf": 0.9991,
+                            "Stress_Score": 0.007
+                        }
+                    },
+                    {
+                        "question": "How do you feel when you have to start a new topic or assignment?",
+                        "answer": "i feel pretty confidant",
+                        "prediction": {
+                            "Low_Confidence_Flag": false,
+                            "Mental": "Normal",
+                            "Mental_conf": 0.9402,
+                            "Physical": "Anger",
+                            "Physical_conf": 0.9906,
+                            "Polarity": "NORMAL",
+                            "Polarity_conf": 0.9944,
+                            "Stress_Score": 0.0427
+                        }
+                    }
+                ]
+            },
+            {
+                "categoryName": "Stress & Anxiety",
+                "questions": [
+                    {
+                        "question": "How stressed do you feel about upcoming exams or deadlines?",
+                        "answer": "depends on the preparation",
+                        "prediction": {
+                            "Low_Confidence_Flag": true,
+                            "Mental": "Normal",
+                            "Mental_conf": 0.9758,
+                            "Physical": "Anger",
+                            "Physical_conf": 0.4333,
+                            "Polarity": "POSITIVE",
+                            "Polarity_conf": 0.9996,
+                            "Stress_Score": 0.003
+                        }
+                    },
+                    {
+                        "question": "What situations during your studies make you feel anxious or overwhelmed?",
+                        "answer": "encountering new things",
+                        "prediction": {
+                            "Low_Confidence_Flag": false,
+                            "Mental": "Normal",
+                            "Mental_conf": 0.8866,
+                            "Physical": "Anger",
+                            "Physical_conf": 0.9803,
+                            "Polarity": "POSITIVE",
+                            "Polarity_conf": 0.9995,
+                            "Stress_Score": 0.0069
+                        }
+                    },
+                    {
+                        "question": "How does academic pressure affect your mood or focus?",
+                        "answer": "my focus is distorted",
+                        "prediction": {
+                            "Low_Confidence_Flag": false,
+                            "Mental": "Normal",
+                            "Mental_conf": 0.9503,
+                            "Physical": "Sadness",
+                            "Physical_conf": 0.9706,
+                            "Polarity": "POSITIVE",
+                            "Polarity_conf": 0.9996,
+                            "Stress_Score": 0.0085
+                        }
+                    },
+                    {
+                        "question": "How confident or anxious do you feel when exams approach?",
+                        "answer": "i feel anxious if not prepared",
+                        "prediction": {
+                            "Low_Confidence_Flag": false,
+                            "Mental": "Anxiety",
+                            "Mental_conf": 0.9602,
+                            "Physical": "Sadness",
+                            "Physical_conf": 0.9975,
+                            "Polarity": "POSITIVE",
+                            "Polarity_conf": 0.9977,
+                            "Stress_Score": 0.6868
+                        }
+                    }
+                ]
+            },
+            {
+                "categoryName": "Time Management & Coping",
+                "questions": [
+                    {
+                        "question": "How do you manage your study time and deadlines?",
+                        "answer": "i prepare timetable and try following it",
+                        "prediction": {
+                            "Low_Confidence_Flag": false,
+                            "Mental": "Normal",
+                            "Mental_conf": 0.9789,
+                            "Physical": "Anger",
+                            "Physical_conf": 0.9661,
+                            "Polarity": "POSITIVE",
+                            "Polarity_conf": 0.9997,
+                            "Stress_Score": 0.0068
+                        }
+                    },
+                    {
+                        "question": "When you feel overwhelmed by studies, what strategies do you use to cope?",
+                        "answer": "try to go out and be physical",
+                        "prediction": {
+                            "Low_Confidence_Flag": true,
+                            "Mental": "Normal",
+                            "Mental_conf": 0.9395,
+                            "Physical": "Sadness",
+                            "Physical_conf": 0.4714,
+                            "Polarity": "POSITIVE",
+                            "Polarity_conf": 0.9996,
+                            "Stress_Score": 0.0041
+                        }
+                    },
+                    {
+                        "question": "Do you take breaks or use any specific methods to reduce stress while studying?",
+                        "answer": "yes i go cycling",
+                        "prediction": {
+                            "Low_Confidence_Flag": false,
+                            "Mental": "Normal",
+                            "Mental_conf": 0.975,
+                            "Physical": "Anger",
+                            "Physical_conf": 0.8487,
+                            "Polarity": "POSITIVE",
+                            "Polarity_conf": 0.9994,
+                            "Stress_Score": 0.0059
+                        }
+                    },
+                    {
+                        "question": "Do you feel your current study routine impacts your sleep, health, or personal life?",
+                        "answer": "yes it does",
+                        "prediction": {
+                            "Low_Confidence_Flag": false,
+                            "Mental": "Normal",
+                            "Mental_conf": 0.9792,
+                            "Physical": "Anger",
+                            "Physical_conf": 0.6902,
+                            "Polarity": "POSITIVE",
+                            "Polarity_conf": 0.9993,
+                            "Stress_Score": 0.0048
+                        }
+                    }
+                ]
+            }
+        ],
+        "userId": "68d7521063a4c0ac0870f7a4",
+        "submittedAt": "2025-09-27T06:18:37.980960",
+        "_id": 
