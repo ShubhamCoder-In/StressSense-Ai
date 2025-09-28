@@ -4,3 +4,4 @@ pymongo[srv]==4.3.3          # MongoDB client
 bcrypt==4.0.1                # Password hashing
 dnspython==2.3.0             # Needed by pymongo for SRV connections
 gradio-client==0.10.1        # To call your hosted Gradio model API
+gunicorn==23.1.2
