@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | StressSence AI</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <style>
+        body { background: #f8f9fa; font-family: 'Segoe UI', sans-serif; }
+        .login-card { max-width: 400px; margin: 80px auto; padding: 30px; background: white; border-radius: 12px; box-shadow: 0 5px 20px rgba(0,0,0,0.1); }
+        #loginMessage { margin-top: 15px; }
+        .eye-icon {
+            position: absolute;
+            top: 100%;
+            right: 15px;        /* slightly away from the right edge */
+            transform: translateY(-110%);
+            cursor: pointer;
+            font-size: 1.2rem;
+            color: #555;
+        }
+        .pe-5 {
+            padding-right: 2.5rem; /* space for the icon inside input */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="login-card">
+        <h2 class="text-center mb-4">Login to StressSence AI</h2>
+
+        <form id="loginForm" th:object="${user}">
+            <!-- Email -->
+            <div class="mb-3">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="email" th:field="*{email}" required>
+            </div>
+
+            <!-- Password Field -->
+            <div class="mb-3 position-relative">
+                <label for="password" class="form-label">Password</label>
+                <input type="password" class="form-control pe-5" id="password" required>
+                <i class="bi bi-eye-fill eye-icon" onclick="togglePassword('password', this)"></i>
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100">Login</button>
+        </form>
+
+        <div id="loginMessage"></div>
+        <p class="text-center mt-3">Don't have an account? <a th:href="@{/signup}">Sign Up</a></p>
+    </div>
+</div>
+
+<script>
+    function togglePassword(fieldId, icon) {
+        const field = document.getElementById(fieldId);
+        if (field.type === "password") {
+            field.type = "text";
+            icon.classList.remove('bi-eye-fill');
+            icon.classList.add('bi-eye-slash-fill');
+        } else {
+            field.type = "password";
+            icon.classList.remove('bi-eye-slash-fill');
+            icon.classList.add('bi-eye-fill');
+        }
+    }
+
+    const loginForm = document.getElementById("loginForm");
+    const loginMessage = document.getElementById("loginMessage");
+
+    loginForm.addEventListener("submit", async (e) => {
+        e.preventDefault();
+
+        const email = document.getElementById("email").value.trim();
+        const password = document.getElementById("password").value;
+
+        if (!email || !password) {
+            loginMessage.innerHTML = `<div class="alert alert-danger">Form not submitted. Please fill all fields.</div>`;
+            return;
+        }
+
+        const loginData = { email, password };
+
+        try {
+            const response = await fetch("/api/login", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(loginData)
+            });
+
+            const result = await response.json();
+
+            if (response.ok) {
+                loginMessage.innerHTML = `<div class="alert alert-success">${result.message || "Login successful!"}</div>`;
+                loginForm.reset();
+
+                // ✅ Role-based redirect
+                if (result.redirect) {
+                    setTimeout(() => {
+                        window.location.href = result.redirect;
+                    }, 800); // small delay to show success message
+                }
+            } else {
+                let errorText = result.message || "Login failed!";
+                loginMessage.innerHTML = `<div class="alert alert-danger">${errorText}</div>`;
+            }
+        } catch (err) {
+            loginMessage.innerHTML = `<div class="alert alert-danger">Network error: ${err.message}</div>`;
+        }
+    });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

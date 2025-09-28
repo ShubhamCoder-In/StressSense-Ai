@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hackathon Home | StressSence AI</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-gray-50">
+
+<!-- Navbar -->
+<header class="bg-gradient-to-r from-indigo-600 to-purple-700 text-white shadow-lg">
+  <div class="container mx-auto flex justify-between items-center px-6 py-4">
+    <h1 class="text-2xl font-bold">Hackathon 2025</h1>
+    <nav class="space-x-6 hidden md:flex">
+      <a href="#about" class="hover:text-yellow-300 transition">About</a>
+      <a href="#details" class="hover:text-yellow-300 transition">Details</a>
+      <a href="#team" class="hover:text-yellow-300 transition">Team Approach</a>
+      <a href="#contact" class="hover:text-yellow-300 transition">Contact</a>
+    </nav>
+    <div class="md:hidden">
+      <button id="menu-btn" class="focus:outline-none">☰</button>
+    </div>
+  </div>
+  <!-- Mobile Menu -->
+  <div id="menu" class="hidden flex flex-col items-center bg-indigo-700 text-white md:hidden">
+    <a href="#about" class="py-2">About</a>
+    <a href="#details" class="py-2">Details</a>
+    <a href="#team" class="py-2">Team Approach</a>
+    <a href="#contact" class="py-2">Contact</a>
+  </div>
+</header>
+
+<!-- Hero Section -->
+<section class="bg-gradient-to-r from-indigo-600 to-purple-700 text-white text-center py-24" data-aos="fade-up">
+  <div class="container mx-auto px-6">
+    <h1 class="text-4xl md:text-5xl font-extrabold">Welcome to StressSence AI Hackathon</h1>
+    <p class="mt-4 text-lg md:text-xl max-w-2xl mx-auto">
+      An AI-powered Study Buddy Platform to detect student stress and provide personalized suggestions using Gemini.
+    </p>
+    <div class="mt-6 space-x-4">
+      <a href="login" class="bg-yellow-400 text-black px-6 py-3 rounded-full font-semibold hover:bg-yellow-300 transition">Login</a>
+      <a href="signup" class="bg-white text-indigo-700 px-6 py-3 rounded-full font-semibold hover:bg-gray-200 transition">Signup</a>
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="py-16" data-aos="fade-right">
+  <div class="container mx-auto px-6 text-center">
+    <h2 class="text-3xl font-bold text-gray-800">About the Hackathon</h2>
+    <p class="mt-4 text-gray-600 max-w-3xl mx-auto">
+      The StressSence AI Hackathon is focused on leveraging artificial intelligence 
+      to build tools that enhance student well-being. Participants will work on detecting 
+      stress levels, providing intelligent recommendations, and promoting a healthy academic environment.
+    </p>
+  </div>
+</section>
+
+<!-- Details Section -->
+<section id="details" class="bg-gray-100 py-16" data-aos="zoom-in">
+  <div class="container mx-auto px-6 text-center">
+    <h2 class="text-3xl font-bold text-gray-800">Hackathon Details</h2>
+    <div class="grid md:grid-cols-3 gap-8 mt-8">
+      <div class="bg-white shadow-lg rounded-xl p-6 hover:scale-105 transition">
+        <h3 class="text-xl font-semibold text-indigo-700">📅 Date</h3>
+        <p class="mt-2 text-gray-600">25th - 27th September 2025</p>
+      </div>
+      <div class="bg-white shadow-lg rounded-xl p-6 hover:scale-105 transition">
+        <h3 class="text-xl font-semibold text-indigo-700">📍 Venue</h3>
+        <p class="mt-2 text-gray-600">Bhopal, India</p>
+      </div>
+      <div class="bg-white shadow-lg rounded-xl p-6 hover:scale-105 transition">
+        <h3 class="text-xl font-semibold text-indigo-700">🏆 Prizes</h3>
+        <p class="mt-2 text-gray-600">Exciting rewards & certificates for all</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Team Approach -->
+<section id="team" class="py-16" data-aos="fade-left">
+  <div class="container mx-auto px-6 text-center">
+    <h2 class="text-3xl font-bold text-gray-800">Our Team Approach</h2>
+    <p class="mt-4 text-gray-600 max-w-2xl mx-auto">
+      We believe in collaboration, innovation, and solving real-world problems. Our approach is simple yet impactful:
+    </p>
+    <div class="grid md:grid-cols-4 gap-8 mt-8">
+      <div class="bg-white shadow-lg rounded-xl p-6 hover:bg-indigo-50 transition">
+        <h3 class="text-xl font-semibold text-indigo-700">🤝 Collaboration</h3>
+        <p class="mt-2 text-gray-600">Working together across diverse skills.</p>
+      </div>
+      <div class="bg-white shadow-lg rounded-xl p-6 hover:bg-indigo-50 transition">
+        <h3 class="text-xl font-semibold text-indigo-700">💡 Innovation</h3>
+        <p class="mt-2 text-gray-600">Using cutting-edge AI & Gemini APIs.</p>
+      </div>
+      <div class="bg-white shadow-lg rounded-xl p-6 hover:bg-indigo-50 transition">
+        <h3 class="text-xl font-semibold text-indigo-700">⚡ Execution</h3>
+        <p class="mt-2 text-gray-600">Rapid prototyping & deployment.</p>
+      </div>
+      <div class="bg-white shadow-lg rounded-xl p-6 hover:bg-indigo-50 transition">
+        <h3 class="text-xl font-semibold text-indigo-700">🌍 Impact</h3>
+        <p class="mt-2 text-gray-600">Solutions that truly help students thrive.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="bg-gray-100 py-16" data-aos="fade-up">
+  <div class="container mx-auto px-6 text-center">
+    <h2 class="text-3xl font-bold text-gray-800">Contact Us</h2>
+    <p class="mt-4 text-gray-600">📧 support@stresssence.ai</p>
+    <p class="mt-2 text-gray-600">📞 +91 98765 43210</p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gradient-to-r from-indigo-600 to-purple-700 text-white py-4 text-center">
+  <p>&copy; 2025 StressSence AI Hackathon. All rights reserved.</p>
+</footer>
+
+<!-- Scripts -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+
+  // Mobile menu toggle
+  const menuBtn = document.getElementById("menu-btn");
+  const menu = document.getElementById("menu");
+  menuBtn.addEventListener("click", () => {
+    menu.classList.toggle("hidden");
+  });
+</script>
+</body>
+</html>
