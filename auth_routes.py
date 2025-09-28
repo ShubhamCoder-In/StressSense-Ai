@@ -3,10 +3,14 @@ import bcrypt
 import bson
 from pymongo import MongoClient
 from flask import session
+from dotenv import load_dotenv
+import os
+
+load_dotenv()  
 
 auth_bp = Blueprint("auth", __name__)
 # ---------------- MongoDB Connection ----------------
-MONGO_URI = "mongodb+srv://StressSenseUser:StressSenseUser123@stresssenseai.8jkey3a.mongodb.net/?retryWrites=true&w=majority"
+MONGO_URI = os.getenv("MONGO_URI")
 client = MongoClient(MONGO_URI)
 db = client.stresssense          # Database name
 users_collection = db.users      # Collection for users

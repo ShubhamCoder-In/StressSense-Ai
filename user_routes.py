@@ -1,15 +1,19 @@
 from flask import Blueprint, render_template, request, redirect, url_for, session, g
 from bson.objectid import ObjectId
 from pymongo import MongoClient
-
+import os
+from dotenv import load_dotenv
+load_dotenv()  
 # Create a Blueprint for user routes
 user_bp = Blueprint("user", __name__)
 
 # MongoDB setup
-MONGO_URI = "mongodb+srv://StressSenseUser:StressSenseUser123@stresssenseai.8jkey3a.mongodb.net/?retryWrites=true&w=majority"
+MONGO_URI = os.getenv("MONGO_URI")
 client = MongoClient(MONGO_URI)
 db = client.stresssense          # Database name
 users_collection = db.users 
+
+germini_key = os.getenv("GERMINI_API_KEY")
 
 # ------------------- Helper to get current user -------------------
 @user_bp.before_request
@@ -64,7 +68,7 @@ def assessments():
 def suggestions():
     if not g.user:
         return redirect(url_for("user.login"))
-    return render_template("AiSuggestion.html", user=g.user)
+    return render_template("AiSuggestion.html", user=g.user, germini_key = germini_key)
 
 @user_bp.route("/output")
 def output():
